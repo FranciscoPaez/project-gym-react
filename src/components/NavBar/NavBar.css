@@ -1,0 +1,58 @@
+#navBar {
+    background-color: #1F2023 !important;
+}
+
+.collapse {
+    margin-left: 15rem;
+}
+
+.nav-logo {
+    text-decoration: none;
+    color: #F48915;
+    font-weight: 800;
+    font-size: 40px;
+}
+  
+.mayusLogo{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 50px;
+}
+  
+.point-logo {
+    color: #F48915;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.navLinks {
+    margin-left: 10rem;
+}
+
+.links {
+    color: #fff !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.links:hover {
+    color: #F48915 !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+button {
+   background-color: #F48915 !important;
+}
+
+@media screen and (max-width: 700px){
+    .navLinks {
+        margin-left: auto;
+    }
+    .collapse {
+        margin-left: 0;
+    }
+} 

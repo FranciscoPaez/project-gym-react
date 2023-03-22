@@ -1,0 +1,105 @@
+.card{
+    background: #656565 !important;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    height: 25rem !important;
+    border-radius: 0 !important;
+}
+.card img{
+    width: 12%;
+    margin: 1rem;
+    background-color: #fff;
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+.card h3{
+    margin-top: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    align-items: start !important;
+
+}
+
+.card h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.card p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.card a{
+    color: #000;
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: none;
+    background: #fff;
+    text-decoration: none;
+    padding: .5rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.card-center {
+    background: linear-gradient(210.41deg,#fa5042 1.14%,#ffa739 100.75%) !important;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    height: 31.4rem !important;
+    border-radius: 0 !important;
+}
+.card-center img{
+    width: 12%;
+    margin: 1rem;
+    background-color: #fff;
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+.card-center h3{
+    margin-top: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    align-items: start !important;
+    margin-bottom: 1.5rem;
+
+}
+
+.card-center h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.card-center p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 700px) {
+    .card {
+        margin: 1rem;
+    }
+
+    .card-center {
+        margin: 0rem;
+    }
+}
+
